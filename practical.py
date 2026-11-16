@@ -1,5 +1,4 @@
 #1. Matplotlib
-# : Student Marks Analysis using Pandas
 import pandas as pd
 
 data = {"Student": ["A", "B", "C", "D", "E"],
@@ -10,7 +9,6 @@ print("Student Data:\n", df)
 print("Average Marks:", df["Marks"].mean())
 print("Highest Marks:", df["Marks"].max())
 
-# Monthly Sales Visualization using Matplotlib
 import matplotlib.pyplot as plt
 
 months = ["Jan", "Feb", "Mar", "Apr", "May"]
@@ -30,36 +28,26 @@ from sklearn import datasets, linear_model
 from sklearn.model_selection import train_test_split 
 from sklearn.metrics import mean_squared_error, r2_score 
 
-# Load the diabetes dataset 
 diabetes = datasets.load_diabetes() 
 
-# X - feature vectors, y - target values 
 X = diabetes.data 
 y = diabetes.target 
 
-# Splitting X and y into training and testing sets 
 X_train, X_test, y_train, y_test = train_test_split(    X, y, test_size=0.4, random_state=1 )
 
-# Create linear regression object 
 lin_reg = linear_model.LinearRegression() 
 
-# Train the model 
 lin_reg.fit(X_train, y_train) 
 
-# Predict values for X_test data 
 predicted = lin_reg.predict(X_test) 
 
-# Regression coefficients 
 print('\nCoefficients:\n', lin_reg.coef_) 
 print('\nIntercept:', lin_reg.intercept_) 
 
-# Variance score: 1 means perfect prediction 
 print('Variance score:', lin_reg.score(X_test, y_test)) 
 
-# Mean Squared Error 
 print("Mean squared error: %.2f\n" % mean_squared_error(y_test, predicted)) 
 
-# Plot expected vs predicted values 
 plt.title('Linear Regression (Diabetes Dataset)') 
 plt.scatter(y_test, predicted, c='b', marker='.', s=36) 
 plt.plot(np.linspace(0, 330, 100), np.linspace(0, 330, 100), '--r', linewidth=2) 
@@ -103,35 +91,27 @@ from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.naive_bayes import MultinomialNB
 from sklearn.metrics import accuracy_score, confusion_matrix, precision_score, recall_score
 
-# Read dataset
 msg = pd.read_csv('document.csv', names=['message', 'label'])
 
 print("Total Instances of Dataset:", msg.shape[0])
 
-# Remove missing values
 msg = msg.dropna()
 
-# Convert labels into numbers
 msg['labelnum'] = msg['label'].map({'pos': 1, 'neg': 0})
 
-# Remove rows with invalid labels
 msg = msg.dropna(subset=['labelnum'])
 
-# Separate input and output
 X = msg['message']
 y = msg['labelnum']
 
-# Split dataset
 Xtrain, Xtest, ytrain, ytest = train_test_split(
     X, y, test_size=0.25, random_state=42
 )
 
-# Convert text into numerical features
 count_v = CountVectorizer()
 Xtrain_dm = count_v.fit_transform(Xtrain)
 Xtest_dm = count_v.transform(Xtest)
 
-# Display word frequency dataframe
 df = pd.DataFrame(
     Xtrain_dm.toarray(),
     columns=count_v.get_feature_names_out()
@@ -140,14 +120,11 @@ df = pd.DataFrame(
 print("\nWord Frequency Matrix:")
 print(df)
 
-# Train Naive Bayes classifier
 clf = MultinomialNB()
 clf.fit(Xtrain_dm, ytrain)
 
-# Predict output
 pred = clf.predict(Xtest_dm)
 
-# Evaluate model
 print('\nAccuracy Metrics:')
 print('Accuracy:', accuracy_score(ytest, pred))
 print('Recall:', recall_score(ytest, pred, zero_division=0))
@@ -156,7 +133,7 @@ print('Confusion Matrix:\n', confusion_matrix(ytest, pred))
 
 #4 KNN
 
-from sklearn.neighbors import KNeighbors Classifier 
+from sklearn.neighbors import KNeighborsClassifier 
 from sklearn.model_selection import train_test_split 
 from sklearn.datasets import load_iris 
 irisData = load_iris() 
@@ -171,39 +148,30 @@ print(knn.predict(X_test) )
 
 #4 SVM
 
-# Import necessary libraries
 import pandas as pd
 from sklearn.model_selection import train_test_split
 from sklearn.svm import LinearSVC
 from sklearn.metrics import accuracy_score, confusion_matrix, precision_score, recall_score
 
-# Load dataset
 data = pd.read_csv('emails.csv')
 
 print("Total Instances of Dataset:", data.shape[0])
 
-# Remove Email No. column
 data = data.drop('Email No.', axis=1)
 
-# Separate features and target
 X = data.drop('Prediction', axis=1)
 y = data['Prediction']
 
-# Split dataset into training and testing
 X_train, X_test, y_train, y_test = train_test_split(
     X, y, test_size=0.2, random_state=42, stratify=y
 )
 
-# Create SVM classifier
 clf = LinearSVC(random_state=42, max_iter=10000)
 
-# Train the model
 clf.fit(X_train, y_train)
 
-# Predict test data
 y_pred = clf.predict(X_test)
 
-# Evaluate model
 print("\nSVM Classification Results:")
 print("Accuracy:", accuracy_score(y_test, y_pred))
 print("Precision:", precision_score(y_test, y_pred))
@@ -220,15 +188,12 @@ import matplotlib.pyplot as plt
 from sklearn.cluster import KMeans
 from scipy.spatial.distance import cdist 
 
-# Given dataset 
 data = np.array([ [1.713, 1.586], [0.180, 1.786], [0.353, 1.240], [0.940, 1.566], [1.486, 0.759], [1.266, 1.106], [1.540, 0.419], [0.459, 1.799], [0.773, 0.186] ])  
 labels = np.array([0, 1, 1, 0, 1, 0, 1, 1, 1]) 
 
-# Applying k-means clustering with 3 clusters 
 kmeans = KMeans(n_clusters=3, random_state=42, n_init=10) 
 kmeans.fit(data) 
 
-# Predict cluster for new point
 new_point = np.array([[0.906, 0.606]])
 predicted_cluster = kmeans.predict(new_point) 
 
@@ -237,7 +202,6 @@ cluster_labels = kmeans.labels_
 cluster_classes = {i: np.bincount(labels[cluster_labels == i]).argmax() for i in range(3)} 
 predicted_class = cluster_classes[predicted_cluster[0]] 
 
-# Visualizing the clusters 
 plt.scatter(data[:, 0], data[:, 1], c=cluster_labels, cmap='viridis', marker='o', label='Data Points') 
 plt.scatter(kmeans.cluster_centers_[:, 0], kmeans.cluster_centers_[:, 1], c='red', marker='X', s=200, label='Centroids') 
 plt.scatter(new_point[:, 0], new_point[:, 1], c='blue', marker='s', s=100, label='New Point') 
@@ -251,60 +215,37 @@ print(f"Predicted class for (0.906, 0.606): {predicted_class}")
 
 #5 random forest
 
-# Import necessary libraries
-import pandas as pd
-import matplotlib.pyplot as plt
-
-from sklearn.ensemble import RandomForestClassifier
-from sklearn.preprocessing import LabelEncoder
-from sklearn.model_selection import train_test_split
-from sklearn.metrics import accuracy_score, classification_report
-
-# Load dataset and assign column names
-df = pd.read_csv('car_evaluation.csv', names=[
-    "buying", "maint", "doors", "persons",
-    "lug_boot", "safety", "class"
-])
-
-# Convert categorical values into numerical values
-le = LabelEncoder()
-
-for column in df.columns:
+import pandas as pd 
+from sklearn.ensemble import RandomForestClassifier 
+from sklearn.preprocessing import LabelEncoder 
+from sklearn.model_selection import train_test_split 
+from sklearn.metrics import accuracy_score, classification_report, confusion_matrix 
+import matplotlib.pyplot as plt 
+# Load dataset 
+df = pd.read_csv('car_evaluation.csv', names=["buying", "maint", "doors", "persons", "lug_boot", "safety", "class"]) 
+# Encode categorical variables 
+le = LabelEncoder() 
+for column in df.columns: 
     df[column] = le.fit_transform(df[column])
-
-# Separate features and target
-X = df.drop('class', axis=1)
-y = df['class']
-
-# Split data into training (80%) and testing (20%)
-X_train, X_test, y_train, y_test = train_test_split(
-    X, y, test_size=0.2, random_state=42
-)
-
-# Create Random Forest model with 100 decision trees
-model = RandomForestClassifier(
-    n_estimators=100, random_state=42
-)
-
-# Train the model
+X = df.drop('class', axis=1) 
+y = df['class'] 
+# Split data 
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42) 
+# Train model 
+model = RandomForestClassifier(n_estimators=100, random_state=42) 
 model.fit(X_train, y_train)
-
-# Predict test data
-y_pred = model.predict(X_test)
-
-# Evaluate model performance
-print("Accuracy:", accuracy_score(y_test, y_pred))
-print("Classification Report:\n", classification_report(y_test, y_pred))
-
-# Visualize feature importance
-importances = model.feature_importances_
-
-plt.figure(figsize=(8, 6))
-plt.barh(X.columns, importances)
-plt.xlabel("Feature Importance")
+# Predict and Evaluate 
+y_pred = model.predict(X_test) 
+print("Accuracy:", accuracy_score(y_test, y_pred)) 
+print("Classification Report:\n", classification_report(y_test, y_pred)) 
+# Feature Importance 
+importances = model.feature_importances_ 
+plt.figure(figsize=(8, 6)) 
+plt.barh(X.columns, importances) 
+plt.xlabel("Feature Importance") 
 plt.title("Random Forest Feature Importance")
-plt.grid()
-plt.show()
+plt.grid() 
+plt.show() 
 
 #6 Ada and gradient
 
@@ -331,20 +272,16 @@ print("XGBoost Accuracy:", accuracy_score(y_test, y_pred_xgb))
 
 #7 Q learn taxi
 
-#assgn 7
 import gymnasium as gym
 import numpy as np
 import matplotlib.pyplot as plt
 
-# Create environment
 env = gym.make("Taxi-v4")
 
-# Initialize Q-table
 actions = env.action_space.n
 states = env.observation_space.n
 Q = np.zeros((states, actions))
 
-# Hyperparameters
 episodes = 1000
 learning_rate = 0.7
 discount = 0.618
@@ -353,7 +290,6 @@ epsilon_decay = 0.01
 
 rewards = []
 
-# Q-learning
 for ep in range(episodes):
 
     state, info = env.reset()
@@ -362,18 +298,16 @@ for ep in range(episodes):
 
     while not done:
 
-        # Choose action using epsilon-greedy strategy
         if np.random.uniform(0, 1) < epsilon:
             action = env.action_space.sample()
         else:
             action = np.argmax(Q[state])
 
-        # Perform action
+        
         next_state, reward, terminated, truncated, info = env.step(action)
 
         done = terminated or truncated
 
-        # Update Q-table
         old_value = Q[state, action]
         next_max = np.max(Q[next_state])
 
@@ -383,13 +317,10 @@ for ep in range(episodes):
 
         state = next_state
         total_reward += reward
-
-    # Reduce exploration after each episode
     epsilon = max(0.01, epsilon - epsilon_decay)
 
     rewards.append(total_reward)
 
-# Plotting rewards
 plt.plot(rewards)
 plt.title("Episode Rewards Over Time")
 plt.xlabel("Episodes")
