@@ -1,0 +1,3325 @@
+1. Online Examination Management System: A college
+plans to develop an online examination system with
+student registration, question bank management,
+examination scheduling, online assessment and result
+generation. Select the most appropriate software
+process model and justify your selection based on
+project size, complexity, risk and customer
+involvement.
+
+Identify requirements, compare
+suitable process models, select an
+appropriate model, justify the
+selection and represent its phases
+and deliverables.
+Online Examination Management System – Selection of Software Process Model
+1. Introduction
+An Online Examination Management System (OEMS) is a software application designed to conduct examinations online. It allows students to register, attempt examinations, and view results. It also enables administrators and faculty members to manage questions, schedule examinations, evaluate answers, and generate results.
+
+The system consists of the following major modules:
+
+Student Registration and Login
+
+Question Bank Management
+
+Examination Scheduling
+
+Online Examination and Assessment
+
+Result Generation and Report Management
+
+Admin and Faculty Management
+
+The most appropriate software process model for this project is the Incremental Model.
+
+2. Requirement Identification
+Requirements are divided into functional and non-functional requirements.
+
+A. Functional Requirements
+Module
+
+Requirements
+
+Student Registration
+
+Student registration, login, profile management
+
+Question Bank
+
+Add, update, delete and categorize questions
+
+Exam Scheduling
+
+Schedule exams, set date, time and duration
+
+Online Assessment
+
+Display questions, accept answers, submit exams
+
+Result Generation
+
+Automatic evaluation, marks calculation and result display
+
+Admin Management
+
+Manage students, faculty, exams and reports
+
+B. Non-Functional Requirements
+Security: Secure login, data encryption and role-based access.
+
+Performance: Support multiple students attempting exams simultaneously.
+
+Reliability: Prevent data loss during examinations.
+
+Scalability: Support increasing numbers of students and examinations.
+
+Usability: Provide a simple and user-friendly interface.
+
+Availability: Ensure the system is available during examination hours.
+
+3. Comparison of Suitable Software Process Models
+The following models can be considered for developing the system.
+
+Process Model
+
+Advantages
+
+Disadvantages
+
+Waterfall Model
+
+Simple, structured and easy to manage
+
+Difficult to accommodate changing requirements
+
+Prototyping Model
+
+Helps understand user requirements through early prototypes
+
+Frequent changes may increase development time
+
+Spiral Model
+
+Focuses on risk analysis and risk management
+
+Expensive and complex for smaller projects
+
+Incremental Model
+
+Develops the system in smaller modules and allows regular feedback
+
+Requires proper planning and integration
+
+4. Selection of Appropriate Model
+Selected Model: Incremental Model
+The Incremental Software Development Model is the most suitable model for the Online Examination Management System.
+
+In this model, the complete system is divided into smaller functional modules called increments. Each increment is developed, tested and delivered separately. All increments are integrated to form the final system.
+
+For example, student registration can be developed first, followed by question bank management, examination scheduling, online assessment and result generation.
+
+5. Justification for Selecting the Incremental Model
+The selection is justified based on four important factors:
+
+A. Project Size
+The project contains multiple modules with different functionalities.
+
+Each module can be developed independently.
+
+Development in increments makes the project easier to manage.
+
+The system can be delivered in stages.
+
+B. Project Complexity
+The system involves student records, question databases, examination schedules and result calculations.
+
+Different modules have different technical requirements.
+
+Incremental development reduces complexity by dividing the system into smaller parts.
+
+Integration testing ensures that all modules work together properly.
+
+C. Project Risk
+Online examinations involve risks such as server failure, security breaches, data loss and incorrect result calculation.
+
+Each increment can be tested before moving to the next.
+
+Technical problems can be identified and corrected early.
+
+Critical modules, such as online assessment and result generation, can receive additional testing.
+
+D. Customer Involvement
+Students, faculty members and college administrators are the major stakeholders.
+
+They can provide feedback after each increment.
+
+Changes in requirements can be incorporated into future increments.
+
+Regular feedback ensures that the final system meets college requirements.
+
+6. Phases of the Incremental Model and Their Deliverables
+The development of the Online Examination Management System can be divided into the following phases:
+
+Incremental Model – Development Flow
+
+1. Requirement Analysis
+
+Identify functional and non-functional requirements
+
+2. System Design
+
+Architecture, database and module design
+
+3. Incremental Development
+
+Increment 1
+
+Student Registration
+
+Increment 2
+
+Question Bank
+
+Increment 3
+
+Exam Scheduling
+
+Increment 4
+
+Online Assessment
+
+Increment 5
+
+Result Generation and Reports
+
+4. Testing and Integration
+
+Unit, integration, system and security testing
+
+5. Deployment and Maintenance
+
+Final release, feedback and updates
+
+Phase-wise Deliverables
+Phase
+
+Activities
+
+Deliverables
+
+Requirement Analysis
+
+Gather requirements from students, faculty and administrators
+
+SRS Document
+
+System Design
+
+Design architecture, database and interfaces
+
+Design Document, ER Diagram, UML Diagrams
+
+Increment 1
+
+Develop student registration and login
+
+Registration Module
+
+Increment 2
+
+Develop question bank management
+
+Question Bank Module
+
+Increment 3
+
+Develop examination scheduling
+
+Scheduling Module
+
+Increment 4
+
+Develop online examination and assessment
+
+Examination Module
+
+Increment 5
+
+Develop automatic evaluation and reporting
+
+Result Module
+
+Testing and Integration
+
+Test individual modules and integrate them
+
+Test Reports, Integrated System
+
+Deployment
+
+Install and release the system
+
+Deployed Application, User Manual
+
+Maintenance
+
+Fix errors and implement improvements
+
+Updated Software, Maintenance Reports
+
+7. Advantages of the Selected Model for This Project
+Early Delivery: Basic functionality can be delivered before the entire system is completed.
+
+Easy Testing: Each module can be tested independently.
+
+Flexibility: New requirements can be included in future increments.
+
+Reduced Risk: Errors can be identified at an early stage.
+
+Customer Feedback: Users can review each increment and suggest improvements.
+
+Better Management: Development becomes easier because the project is divided into smaller modules.
+
+8. Conclusion
+The Incremental Model is the most appropriate software process model for developing the Online Examination Management System because the project consists of multiple independent modules, has moderate to high complexity, involves security and performance risks, and requires continuous customer feedback.
+
+By developing the system incrementally, the college can obtain early working versions, identify errors at an early stage, reduce development risks and incorporate user suggestions.
+
+Therefore, the Incremental Model provides a systematic, flexible and efficient approach for developing a reliable Online Examination Management System.
+
+Exam Tip Important points to remember:
+
+Selected model: Incremental Model.
+
+Main reason: Multiple independent modules and continuous customer feedback.
+
+Five increments: Registration → Question Bank → Scheduling → Online Assessment → Result Generation.
+
+Main benefits: Flexibility, early delivery, reduced risk and easier testing.
+
+2. Hospital Management System: Prepare a Software
+Requirements Specification (SRS) document for a
+hospital management system supporting patient
+registration, appointment scheduling, doctor
+management, billing, pharmacy and medical records.
+Follow the IEEE SRS documentation structure.
+
+IEEE-format SRS containing
+introduction, overall description,
+
+functional requirements, non-
+functional requirements, external
+
+interfaces, constraints and
+assumptions.
+Software Requirements Specification (SRS)
+Hospital Management System (HMS)
+IEEE SRS Format
+Academic Project
+1. Introduction
+1.1 Purpose
+The purpose of this Software Requirements Specification (SRS) document is to define the functional and non-functional requirements of the Hospital Management System (HMS).
+
+The system aims to automate hospital operations such as patient registration, appointment scheduling, doctor management, billing, pharmacy management and medical record maintenance.
+
+This document serves as a reference for developers, testers, hospital administrators and other stakeholders during software development.
+
+1.2 Scope
+The Hospital Management System is a computerized application designed to manage the daily activities of a hospital.
+
+The system provides the following major functionalities:
+
+Patient registration and management.
+
+Appointment booking and scheduling.
+
+Doctor information and availability management.
+
+Billing and payment processing.
+
+Pharmacy and medicine stock management.
+
+Electronic medical records management.
+
+The system helps reduce paperwork, improve efficiency, minimize errors and provide quick access to patient information.
+
+1.3 Definitions and Abbreviations
+Term
+
+Description
+
+HMS
+
+Hospital Management System
+
+SRS
+
+Software Requirements Specification
+
+Admin
+
+Hospital Administrator
+
+EMR
+
+Electronic Medical Record
+
+DBMS
+
+Database Management System
+
+UI
+
+User Interface
+
+OPD
+
+Outpatient Department
+
+EHR
+
+Electronic Health Record
+
+1.4 References
+IEEE 830-1998: Recommended Practice for Software Requirements Specifications.
+
+IEEE 29148: Systems and Software Engineering – Life Cycle Processes – Requirements Engineering.
+
+Relevant hospital data privacy and security guidelines.
+
+1.5 Overview
+This document describes the overall system, functional requirements, non-functional requirements, external interfaces, system constraints and assumptions of the Hospital Management System.
+
+2. Overall Description
+2.1 Product Perspective
+The Hospital Management System is an integrated software application that connects different hospital departments through a centralized database.
+
+It allows authorized users to access and manage hospital information according to their roles.
+
+Major system users:
+
+Administrator
+
+Receptionist
+
+Doctor
+
+Pharmacist
+
+Accountant
+
+Patient
+
+Hospital Management System – Architecture
+
+Hospital Management System
+
+Patient Registration
+
+Appointment Scheduling
+
+Doctor Management
+
+Billing Management
+
+Pharmacy Management
+
+Medical Records
+
+Centralized Hospital Database
+
+2.2 Product Functions
+The main functions of the system are:
+
+Module
+
+Functions
+
+Patient Registration
+
+Register patients, generate patient ID and update personal details
+
+Appointment Scheduling
+
+Book, reschedule and cancel appointments
+
+Doctor Management
+
+Add doctors, update details and manage availability
+
+Billing
+
+Generate bills, calculate charges and record payments
+
+Pharmacy
+
+Manage medicines, stock, prescriptions and sales
+
+Medical Records
+
+Store patient history, diagnosis, prescriptions and reports
+
+2.3 User Classes and Characteristics
+User
+
+Responsibilities
+
+Administrator
+
+Manages users, departments and system settings
+
+Receptionist
+
+Registers patients and schedules appointments
+
+Doctor
+
+Views patient records, diagnoses patients and creates prescriptions
+
+Pharmacist
+
+Manages medicines, stock and medicine sales
+
+Accountant
+
+Generates bills and manages payments
+
+Patient
+
+Views appointments, bills and permitted medical information
+
+2.4 Operating Environment
+The system should operate in the following environment:
+
+Operating System: Windows, Linux or macOS.
+
+Frontend: HTML, CSS, JavaScript or equivalent technology.
+
+Backend: Java, Python, PHP or equivalent technology.
+
+Database: MySQL, PostgreSQL or equivalent DBMS.
+
+Browser: Google Chrome, Mozilla Firefox, Microsoft Edge.
+
+Network: Internet or hospital local area network (LAN).
+
+Hardware: Computers or servers with sufficient storage and processing capacity.
+
+2.5 Design and Implementation Constraints
+Only authorized users can access confidential information.
+
+The system must use a centralized database.
+
+The application must support multiple users simultaneously.
+
+Patient information must be protected from unauthorized access.
+
+The system should maintain data consistency and accuracy.
+
+Backup and recovery facilities must be provided.
+
+2.6 User Documentation
+The following documents should be provided:
+
+Installation Manual
+
+User Manual
+
+Administrator Manual
+
+System Maintenance Guide
+
+2.7 Assumptions and Dependencies
+Users have basic computer knowledge.
+
+The hospital provides the required computers and network infrastructure.
+
+Doctors, pharmacists and administrative staff enter accurate information.
+
+A database server is available.
+
+Users have valid login credentials.
+
+External payment services, if used, are available.
+
+3. Specific Requirements
+3.1 Functional Requirements
+Functional requirements describe what the system must do.
+
+FR1: Patient Registration
+The system shall allow receptionists to register new patients.
+
+The system shall generate a unique patient ID.
+
+The system shall store patient details such as name, age, gender, address, contact number and email.
+
+The system shall allow authorized users to update patient information.
+
+The system shall allow users to search patient records using patient ID or name.
+
+FR2: Appointment Scheduling
+The system shall allow receptionists or authorized patients to book appointments.
+
+The system shall display available doctors and appointment slots.
+
+The system shall allow appointments to be rescheduled or cancelled.
+
+The system shall prevent double booking of the same doctor and time slot.
+
+The system shall maintain appointment history.
+
+The system shall notify patients about appointment confirmations and changes.
+
+FR3: Doctor Management
+The system shall allow administrators to add new doctors.
+
+The system shall maintain doctor details such as name, specialization, qualification and contact information.
+
+The system shall allow administrators to update doctor information.
+
+The system shall maintain doctor availability and working schedules.
+
+Doctors shall be able to view their assigned appointments.
+
+Doctors shall be able to access authorized patient records.
+
+FR4: Billing Management
+The system shall generate bills for consultations, treatments, tests and medicines.
+
+The system shall automatically calculate the total amount.
+
+The system shall support applicable taxes and discounts.
+
+The system shall record payment details.
+
+The system shall support payment methods such as cash, card and online payment.
+
+The system shall generate payment receipts.
+
+The system shall maintain previous billing records.
+
+FR5: Pharmacy Management
+The system shall maintain medicine details such as medicine name, batch number, price and expiry date.
+
+The system shall allow pharmacists to add, update and remove medicine records.
+
+The system shall maintain medicine stock information.
+
+The system shall update stock automatically after medicine sales.
+
+The system shall generate alerts for low-stock and expired medicines.
+
+The system shall allow pharmacists to process prescriptions.
+
+The system shall generate pharmacy bills.
+
+FR6: Medical Records Management
+The system shall maintain patient medical history.
+
+Doctors shall be able to add diagnosis details.
+
+Doctors shall be able to create and update prescriptions.
+
+The system shall store laboratory reports and treatment details.
+
+Authorized doctors shall be able to retrieve previous medical records.
+
+The system shall maintain the date and details of medical record updates.
+
+The system shall prevent unauthorized users from accessing confidential medical records.
+
+3.2 Non-Functional Requirements
+Non-functional requirements describe how efficiently and securely the system should operate.
+
+Requirement
+
+Description
+
+Performance
+
+The system should respond to normal user requests within 3 seconds under expected load.
+
+Security
+
+The system must provide secure login, role-based access and encrypted communication.
+
+Reliability
+
+The system should operate consistently without frequent failures.
+
+Availability
+
+The system should be available 24/7, subject to planned maintenance.
+
+Scalability
+
+The system should support an increasing number of patients and users.
+
+Usability
+
+The interface should be simple and easy to understand.
+
+Maintainability
+
+The software should be easy to update, modify and maintain.
+
+Data Integrity
+
+Patient and billing information must remain accurate and consistent.
+
+Backup
+
+The system should perform regular database backups.
+
+Portability
+
+The system should work on commonly used operating systems and browsers.
+
+3.3 External Interface Requirements
+External interface requirements describe how the system interacts with users, hardware, software and communication networks.
+
+3.3.1 User Interface
+The system shall provide a user-friendly login page.
+
+It shall provide separate dashboards for different user roles.
+
+It shall provide forms for patient registration and doctor management.
+
+It shall display appointment schedules and patient records.
+
+It shall provide billing and pharmacy management screens.
+
+It shall display clear error messages and confirmation messages.
+
+3.3.2 Hardware Interface
+The system shall support desktop computers and laptops.
+
+It may support printers for printing bills, prescriptions and reports.
+
+It may support barcode scanners for medicine identification.
+
+A server shall host the application and database.
+
+3.3.3 Software Interface
+The system may interact with:
+
+MySQL or PostgreSQL database.
+
+Web browsers.
+
+Operating systems.
+
+SMS and email notification services.
+
+Online payment gateway.
+
+Laboratory or diagnostic systems, if integrated.
+
+3.3.4 Communication Interface
+The system shall communicate over TCP/IP networks.
+
+HTTPS shall be used for secure web communication.
+
+APIs may be used for communication with external services.
+
+Email and SMS services may be used for notifications.
+
+4. System Constraints
+The following constraints must be considered during development:
+
+The system must comply with applicable healthcare data protection and privacy regulations.
+
+Only authorized users can access sensitive patient information.
+
+The system requires a functioning database and network infrastructure.
+
+The system must prevent duplicate patient records wherever possible.
+
+Billing calculations must be accurate.
+
+Medicine expiry dates and stock levels must be properly maintained.
+
+The system must maintain data backups to prevent information loss.
+
+The system must support concurrent access by multiple hospital employees.
+
+5. Assumptions and Dependencies
+5.1 Assumptions
+The hospital has trained staff to operate the system.
+
+Every patient is assigned a unique patient ID.
+
+Doctors provide accurate diagnosis and prescription details.
+
+Pharmacists maintain correct medicine stock information.
+
+Users have valid usernames and passwords.
+
+The hospital has a reliable power supply and network connection.
+
+5.2 Dependencies
+The system depends on database software for storing information.
+
+Appointment notifications depend on SMS or email services.
+
+Online payments depend on third-party payment gateways.
+
+System availability depends on server and network availability.
+
+Regular backups depend on available storage infrastructure.
+
+6. Conclusion
+The Hospital Management System SRS document defines the requirements for developing an integrated hospital application.
+
+The system includes six major modules: patient registration, appointment scheduling, doctor management, billing, pharmacy management and medical records.
+
+Following the IEEE SRS documentation structure ensures that the requirements are clearly documented and understood by developers, testers and hospital administrators.
+
+The proposed system will help hospitals reduce manual work, improve patient services, maintain accurate medical records and increase overall operational efficiency.
+
+Quick Revision – IEEE SRS Structure
+Section
+
+Contents
+
+1. Introduction
+
+Purpose, scope, definitions and references
+
+2. Overall Description
+
+Product perspective, functions, users and environment
+
+3. Specific Requirements
+
+Functional, non-functional and external interface requirements
+
+4. System Constraints
+
+Technical, security and operational limitations
+
+5. Assumptions and Dependencies
+
+Conditions and external dependencies
+
+6. Conclusion
+
+Summary of the proposed system
+
+Note: This is an academic SRS based on the commonly taught IEEE 830 structure, with requirements organized into clear sections. IEEE 830-1998 is a historical recommended practice; IEEE 29148 is the newer requirements-engineering standard
+
+College ERP Development Project: Identify the potential technical, operational, financial and security risks associated with developing a college ERP system. Prepare a comprehensive Risk Mitigation, Monitoring and Management (RMMM) plan 
+
+Risk identification, probability,
+impact, risk exposure, mitigation
+strategies, monitoring indicators,
+contingency actions and risk
+ownership.
+College ERP Development Project – Risk Mitigation, Monitoring and Management (RMMM) Plan
+1. Introduction
+A College Enterprise Resource Planning (ERP) system is a software application that integrates and manages various college activities through a centralized platform.
+
+It includes modules such as:
+
+Student admission and registration
+
+Student attendance management
+
+Faculty and staff management
+
+Examination and result management
+
+Fee and finance management
+
+Library management
+
+Timetable and course management
+
+Student and parent portals
+
+Developing a College ERP system involves several risks related to technology, operations, finance and security.
+
+The Risk Mitigation, Monitoring and Management (RMMM) Plan identifies possible risks, evaluates their probability and impact, defines preventive measures and specifies actions to be taken if risks occur.
+
+2. Risk Identification
+Risks are classified into four major categories.
+
+A. Technical Risks
+Software Failure: Errors or bugs may cause the ERP system to malfunction.
+
+Integration Issues: Difficulty integrating different ERP modules.
+
+Database Failure: Database corruption or server failure may result in data loss.
+
+Performance Issues: The system may become slow when many students access it simultaneously.
+
+Technology Obsolescence: Selected technologies may become outdated.
+
+B. Operational Risks
+User Resistance: Faculty and administrative staff may resist using the new ERP system.
+
+Lack of Training: Employees may not know how to operate the system.
+
+Requirement Changes: College management may change requirements during development.
+
+Project Delays: Development may be delayed due to poor coordination.
+
+Data Migration Issues: Existing student and staff records may not transfer correctly.
+
+C. Financial Risks
+Budget Overrun: Development costs may exceed the estimated budget.
+
+Unexpected Expenses: Additional hardware, software or maintenance costs may arise.
+
+Vendor Cost Increase: Third-party service providers may increase their charges.
+
+Insufficient Funding: The college may not provide sufficient funds for project completion.
+
+D. Security Risks
+Unauthorized Access: Hackers or unauthorized users may access confidential information.
+
+Data Breach: Student, faculty and financial information may be leaked.
+
+Malware Attacks: Viruses or ransomware may damage the system.
+
+Weak Authentication: Weak passwords may allow unauthorized access.
+
+Data Privacy Violations: Personal information may be exposed or misused.
+
+3. Risk Probability and Impact Assessment
+Risk probability indicates the likelihood of a risk occurring, while impact indicates the severity of its consequences.
+
+Probability Scale
+Rating
+
+Probability
+
+Description
+
+1
+
+Very Low
+
+0–20%
+
+2
+
+Low
+
+21–40%
+
+3
+
+Medium
+
+41–60%
+
+4
+
+High
+
+61–80%
+
+5
+
+Very High
+
+81–100%
+
+Impact Scale
+Rating
+
+Impact
+
+Description
+
+1
+
+Very Low
+
+Negligible effect
+
+2
+
+Low
+
+Minor delay or cost
+
+3
+
+Medium
+
+Moderate project disruption
+
+4
+
+High
+
+Major delay or financial loss
+
+5
+
+Very High
+
+Critical project failure or serious data loss
+
+Risk Exposure Calculation
+Risk Exposure (RE) is calculated as:
+
+R
+E
+=
+P
+r
+o
+b
+a
+b
+i
+l
+i
+t
+y
+×
+I
+m
+p
+a
+c
+t
+RE=Probability×Impact
+Example:
+
+If the probability of database failure is 4 and its impact is 5:
+
+R
+E
+=
+4
+×
+5
+=
+20
+RE=4×5=20
+Therefore, the risk exposure is 20.
+
+Risk Priority Classification
+Risk Exposure
+
+Priority
+
+1–5
+
+Low
+
+6–10
+
+Medium
+
+11–15
+
+High
+
+16–25
+
+Critical
+
+4. Risk Assessment Table
+The following table identifies the major risks and evaluates their probability, impact and risk exposure.
+
+Risk ID
+
+Risk Description
+
+Category
+
+Probability
+
+Impact
+
+RE
+
+R1
+
+Software bugs and system failure
+
+Technical
+
+4
+
+4
+
+16
+
+R2
+
+Integration problems between modules
+
+Technical
+
+3
+
+4
+
+12
+
+R3
+
+Database failure or data loss
+
+Technical
+
+3
+
+5
+
+15
+
+R4
+
+Poor system performance
+
+Technical
+
+4
+
+4
+
+16
+
+R5
+
+Resistance from faculty and staff
+
+Operational
+
+4
+
+3
+
+12
+
+R6
+
+Lack of user training
+
+Operational
+
+4
+
+3
+
+12
+
+R7
+
+Requirement changes
+
+Operational
+
+3
+
+4
+
+12
+
+R8
+
+Data migration errors
+
+Operational
+
+3
+
+5
+
+15
+
+R9
+
+Budget overrun
+
+Financial
+
+3
+
+4
+
+12
+
+R10
+
+Unexpected maintenance expenses
+
+Financial
+
+3
+
+3
+
+9
+
+R11
+
+Insufficient project funding
+
+Financial
+
+2
+
+5
+
+10
+
+R12
+
+Unauthorized system access
+
+Security
+
+3
+
+5
+
+15
+
+R13
+
+Data breach or information leakage
+
+Security
+
+3
+
+5
+
+15
+
+R14
+
+Malware or ransomware attack
+
+Security
+
+3
+
+5
+
+15
+
+R15
+
+Weak password and authentication system
+
+Security
+
+4
+
+4
+
+16
+
+Note: These probability and impact scores are illustrative estimates for planning purposes.
+
+5. Risk Mitigation Strategies
+Risk mitigation refers to preventive actions taken to reduce the probability or impact of risks.
+
+Risk ID
+
+Risk
+
+Mitigation Strategy
+
+R1
+
+Software failure
+
+Perform code reviews, unit testing and system testing.
+
+R2
+
+Integration issues
+
+Use standard APIs and perform integration testing regularly.
+
+R3
+
+Database failure
+
+Maintain regular backups and database recovery facilities.
+
+R4
+
+Performance issues
+
+Perform load testing and optimize database queries.
+
+R5
+
+User resistance
+
+Involve staff in development and explain ERP benefits.
+
+R6
+
+Lack of training
+
+Conduct training sessions and provide user manuals.
+
+R7
+
+Requirement changes
+
+Use change management and obtain management approval.
+
+R8
+
+Data migration errors
+
+Clean, validate and test existing data before migration.
+
+R9
+
+Budget overrun
+
+Prepare a realistic budget and monitor expenses.
+
+R10
+
+Maintenance expenses
+
+Allocate a separate maintenance budget.
+
+R11
+
+Insufficient funding
+
+Obtain management approval and maintain financial reserves.
+
+R12
+
+Unauthorized access
+
+Implement role-based access control and multi-factor authentication.
+
+R13
+
+Data breach
+
+Use encryption, access restrictions and security audits.
+
+R14
+
+Malware attacks
+
+Install security software and maintain regular backups.
+
+R15
+
+Weak authentication
+
+Enforce strong passwords, MFA and account lockout policies.
+
+6. Risk Monitoring Indicators
+Risk monitoring involves continuously checking the project to identify warning signs before risks become serious.
+
+Risk ID
+
+Monitoring Indicators
+
+R1
+
+Number of software bugs and system crashes
+
+R2
+
+Number of integration errors between modules
+
+R3
+
+Database downtime and backup failure reports
+
+R4
+
+System response time and server CPU usage
+
+R5
+
+Employee complaints and low ERP adoption rate
+
+R6
+
+Training attendance and user error reports
+
+R7
+
+Number of requirement changes
+
+R8
+
+Number of incorrect or missing migrated records
+
+R9
+
+Actual project cost compared with estimated budget
+
+R10
+
+Monthly maintenance expenses
+
+R11
+
+Availability of approved project funds
+
+R12
+
+Number of failed login attempts and unauthorized access alerts
+
+R13
+
+Security alerts and suspicious data transfers
+
+R14
+
+Malware detection alerts and unusual system activity
+
+R15
+
+Weak password reports and authentication failures
+
+7. Contingency Actions (Risk Management)
+Contingency actions are alternative steps taken when a risk actually occurs despite preventive measures.
+
+Risk ID
+
+Risk
+
+Contingency Action
+
+R1
+
+Software failure
+
+Roll back to the previous stable version and fix the defects.
+
+R2
+
+Integration failure
+
+Temporarily isolate the faulty module and use a tested interface.
+
+R3
+
+Database failure
+
+Restore data from the latest verified backup.
+
+R4
+
+Performance issues
+
+Increase server resources and optimize the application.
+
+R5
+
+User resistance
+
+Conduct additional meetings and provide hands-on support.
+
+R6
+
+Lack of training
+
+Arrange emergency training sessions.
+
+R7
+
+Requirement changes
+
+Evaluate the impact and revise the project schedule and scope after approval.
+
+R8
+
+Data migration errors
+
+Stop migration, correct the records and repeat validation.
+
+R9
+
+Budget overrun
+
+Reduce non-essential expenses and seek additional approval.
+
+R10
+
+High maintenance costs
+
+Renegotiate service contracts and optimize infrastructure costs.
+
+R11
+
+Insufficient funding
+
+Prioritize essential modules and request additional funding.
+
+R12
+
+Unauthorized access
+
+Disable affected accounts and investigate access logs.
+
+R13
+
+Data breach
+
+Isolate affected systems, investigate and follow applicable breach notification procedures.
+
+R14
+
+Malware attack
+
+Isolate infected systems and restore clean backups.
+
+R15
+
+Weak authentication
+
+Force password resets and enable stronger authentication controls.
+
+8. Risk Ownership
+Risk ownership assigns responsibility to specific people or teams for monitoring and managing each risk.
+
+Risk ID
+
+Risk
+
+Risk Owner
+
+R1
+
+Software failure
+
+Development Team Leader
+
+R2
+
+Integration issues
+
+Software Architect
+
+R3
+
+Database failure
+
+Database Administrator
+
+R4
+
+Performance issues
+
+System Administrator
+
+R5
+
+User resistance
+
+College ERP Coordinator
+
+R6
+
+Lack of training
+
+Training Coordinator
+
+R7
+
+Requirement changes
+
+Project Manager
+
+R8
+
+Data migration errors
+
+Database Administrator
+
+R9
+
+Budget overrun
+
+Finance Manager
+
+R10
+
+Maintenance expenses
+
+Finance Manager
+
+R11
+
+Insufficient funding
+
+College Management
+
+R12
+
+Unauthorized access
+
+Security Administrator
+
+R13
+
+Data breach
+
+Security Officer
+
+R14
+
+Malware attack
+
+IT Security Team
+
+R15
+
+Weak authentication
+
+Security Administrator
+
+9. RMMM Plan Summary
+The RMMM plan combines mitigation, monitoring and management activities.
+
+RMMM Process
+
+1. Risk Identification
+
+Identify technical, operational, financial and security risks
+
+2. Risk Assessment
+
+Calculate probability, impact and risk exposure
+
+3. Risk Mitigation
+
+Take preventive measures to reduce risks
+
+4. Risk Monitoring
+
+Track indicators and review risk status regularly
+
+5. Risk Management
+
+Execute contingency actions when risks occur
+
+Continuous review throughout the project lifecycle
+
+Risk Monitoring Schedule
+Activity
+
+Frequency
+
+Responsible Person
+
+Technical risk review
+
+Weekly
+
+Technical Lead
+
+Operational risk review
+
+Monthly
+
+ERP Coordinator
+
+Financial risk review
+
+Monthly
+
+Finance Manager
+
+Security audit
+
+Monthly and after major changes
+
+Security Officer
+
+Overall project risk review
+
+Every two weeks
+
+Project Manager
+
+Backup verification
+
+Daily/weekly as configured
+
+Database Administrator
+
+10. Conclusion
+The College ERP Development Project involves technical, operational, financial and security risks that may affect project cost, quality, schedule and successful implementation.
+
+The RMMM plan helps identify risks early, calculate their probability and impact, implement mitigation strategies, monitor warning indicators and take contingency actions whenever necessary.
+
+By assigning clear risk ownership and regularly reviewing risks, the college can reduce project failures, protect confidential information, control expenses and ensure successful implementation of the ERP system.
+
+Important formulas for examination:
+
+Risk Exposure
+=
+P
+×
+I
+Risk Exposure=P×I
+​
+ 
+Where:
+
+P = Probability of risk
+
+I = Impact of risk
+
+Remember the four key elements: Risk Identification → Mitigation → Monitoring → Management.
+
+This completes a comprehensive RMMM plan suitable for a Software Engineering assignment or examination.
+
+
+
+Online Food Delivery Application: Estimate the
+software project size, development effort and total
+development cost for an online food delivery
+application. Select appropriate software metrics such as
+Function Points or LOC and justify your selection.
+
+Metric selection, project size
+estimation, productivity
+assumptions, effort estimation,
+development duration and cost
+calculation.
+this is basically a cocomo problem
+Online Food Delivery Application – Software Size, Effort and Cost Estimation Using COCOMO
+1. Introduction
+An Online Food Delivery Application is a software system that allows customers to order food from restaurants through an online platform.
+
+The application includes the following modules:
+
+User registration and login.
+
+Restaurant listing and menu management.
+
+Food search and selection.
+
+Shopping cart and order placement.
+
+Online payment processing.
+
+Order tracking and delivery management.
+
+Ratings and reviews.
+
+Admin dashboard and report generation.
+
+The objective is to estimate the software project size, development effort, development duration and total development cost using the COCOMO model.
+
+Since this is a COCOMO-based problem, we will use the Basic COCOMO Model for estimation.
+
+2. Selection of Software Metric
+Two commonly used software size metrics are:
+
+Metric
+
+Description
+
+LOC (Lines of Code)
+
+Measures software size by counting the number of source code lines.
+
+Function Points (FP)
+
+Measures software size based on the functionality provided to users.
+
+Selected Metric: LOC (Lines of Code)
+
+Justification:
+
+COCOMO uses estimated software size in KLOC (Thousand Lines of Code).
+
+The project contains multiple modules that can be estimated in terms of code size.
+
+LOC is directly compatible with the Basic COCOMO model.
+
+It makes effort and cost calculations straightforward.
+
+Note: Function Points can also be used to estimate project size, but they must first be converted into equivalent LOC before applying the traditional Basic COCOMO model.
+
+3. Project Size Estimation
+Assume the application is a medium-sized project with moderate complexity.
+
+The estimated Lines of Code (LOC) for each module are:
+
+Module
+
+Estimated LOC
+
+User Registration and Login
+
+2,000
+
+Restaurant and Menu Management
+
+3,000
+
+Food Search and Shopping Cart
+
+2,500
+
+Order Placement and Management
+
+2,500
+
+Payment Gateway Integration
+
+1,500
+
+Delivery Tracking
+
+2,000
+
+Admin Dashboard
+
+2,000
+
+Notifications, Ratings and Reports
+
+2,500
+
+Total
+
+18,000 LOC
+
+Therefore,
+
+L
+O
+C
+=
+18
+,
+000
+LOC=18,000
+Converting LOC into KLOC:
+
+K
+L
+O
+C
+=
+L
+O
+C
+1000
+KLOC= 
+1000
+LOC
+​
+ 
+K
+L
+O
+C
+=
+18000
+1000
+KLOC= 
+1000
+18000
+​
+ 
+Estimated Size = 18 KLOC
+4. Selection of COCOMO Model
+COCOMO stands for Constructive Cost Model. It is used to estimate software development effort, time and cost based on project size.
+
+There are three types of COCOMO models:
+
+Model
+
+Description
+
+Basic COCOMO
+
+Estimates effort based on software size (KLOC).
+
+Intermediate COCOMO
+
+Uses software size and cost drivers.
+
+Detailed COCOMO
+
+Considers cost drivers at different development phases.
+
+Selected Model: Basic COCOMO – Semi-Detached Mode
+
+Justification:
+
+The application has moderate complexity.
+
+It requires integration with payment gateways, maps and notification services.
+
+It contains multiple independent modules.
+
+It requires an experienced development team.
+
+Requirements are reasonably understood but some changes may occur.
+
+Therefore, the Semi-Detached mode is selected for this estimation.
+
+5. Productivity and Estimation Assumptions
+The following assumptions are considered:
+
+Parameter
+
+Assumption
+
+Project type
+
+Online Food Delivery Application
+
+Project mode
+
+Semi-Detached
+
+Project size
+
+18 KLOC
+
+Development team
+
+Experienced developers
+
+Average development cost
+
+₹50,000 per person-month
+
+Development technology
+
+Java / Python / JavaScript
+
+Working environment
+
+Standard software development environment
+
+The Basic COCOMO equations for Semi-Detached mode are:
+
+Effort:
+
+E
+=
+3.0
+×
+(
+K
+L
+O
+C
+)
+1.12
+E=3.0×(KLOC) 
+1.12
+ 
+Development Time:
+
+T
+=
+2.5
+×
+(
+E
+)
+0.35
+T=2.5×(E) 
+0.35
+ 
+Average Team Size:
+
+T
+e
+a
+m
+ 
+S
+i
+z
+e
+=
+E
+T
+Team Size= 
+T
+E
+​
+ 
+Where:
+
+E = Development effort in Person-Months (PM).
+
+T = Development time in months.
+
+KLOC = Thousand Lines of Code.
+
+6. Effort Estimation Using COCOMO
+Given:
+
+K
+L
+O
+C
+=
+18
+KLOC=18
+Using the Semi-Detached effort formula:
+
+E
+=
+3.0
+×
+(
+K
+L
+O
+C
+)
+1.12
+E=3.0×(KLOC) 
+1.12
+ 
+Substituting the value:
+
+E
+=
+3.0
+×
+(
+18
+)
+1.12
+E=3.0×(18) 
+1.12
+ 
+E
+=
+3.0
+×
+25.4627
+E=3.0×25.4627
+E
+=
+76.39
+ Person-Months
+E=76.39 Person-Months
+Estimated Effort = 76.39 PM
+This means approximately 76.39 person-months of work are required to develop the application.
+
+7. Development Duration Estimation
+Using the COCOMO development time formula:
+
+T
+=
+2.5
+×
+(
+E
+)
+0.35
+T=2.5×(E) 
+0.35
+ 
+Substituting:
+
+T
+=
+2.5
+×
+(
+76.39
+)
+0.35
+T=2.5×(76.39) 
+0.35
+ 
+T
+=
+2.5
+×
+4.561
+T=2.5×4.561
+T
+=
+11.40
+ Months
+T=11.40 Months
+Development Duration = 11.4 Months
+8. Average Team Size Estimation
+Formula:
+
+T
+e
+a
+m
+ 
+S
+i
+z
+e
+=
+E
+f
+f
+o
+r
+t
+D
+e
+v
+e
+l
+o
+p
+m
+e
+n
+t
+ 
+T
+i
+m
+e
+Team Size= 
+Development Time
+Effort
+​
+ 
+Substituting:
+
+T
+e
+a
+m
+ 
+S
+i
+z
+e
+=
+76.39
+11.40
+Team Size= 
+11.40
+76.39
+​
+ 
+T
+e
+a
+m
+ 
+S
+i
+z
+e
+=
+6.70
+Team Size=6.70
+Therefore, the estimated average team size is approximately 7 members.
+
+9. Development Cost Estimation
+Assume the average development cost per person-month is ₹50,000.
+
+Formula:
+
+D
+e
+v
+e
+l
+o
+p
+m
+e
+n
+t
+ 
+C
+o
+s
+t
+=
+E
+f
+f
+o
+r
+t
+×
+C
+o
+s
+t
+ 
+p
+e
+r
+ 
+P
+e
+r
+s
+o
+n
+ 
+M
+o
+n
+t
+h
+Development Cost=Effort×Cost per Person Month
+Substituting:
+
+C
+o
+s
+t
+=
+76.39
+×
+50
+,
+000
+Cost=76.39×50,000
+C
+o
+s
+t
+=
+₹
+38
+,
+19
+,
+500
+Cost=₹38,19,500
+Estimated Development Cost ≈ ₹38.2 Lakhs
+For additional financial safety, assume a 10% contingency reserve.
+
+C
+o
+n
+t
+i
+n
+g
+e
+n
+c
+y
+=
+38
+,
+19
+,
+500
+×
+10
+100
+Contingency=38,19,500× 
+100
+10
+​
+ 
+C
+o
+n
+t
+i
+n
+g
+e
+n
+c
+y
+=
+₹
+3
+,
+81
+,
+950
+Contingency=₹3,81,950
+Total estimated budget:
+
+T
+o
+t
+a
+l
+ 
+C
+o
+s
+t
+=
+38
+,
+19
+,
+500
++
+3
+,
+81
+,
+950
+Total Cost=38,19,500+3,81,950
+T
+o
+t
+a
+l
+ 
+C
+o
+s
+t
+=
+₹
+42
+,
+01
+,
+450
+Total Cost=₹42,01,450
+​
+ 
+Total Budget ≈ ₹42 Lakhs
+This is an illustrative estimate based on the assumed team cost. It does not include separately charged taxes, third-party service fees or major infrastructure purchases.
+
+10. Productivity Estimation
+Productivity indicates the amount of software developed per person-month.
+
+Formula:
+
+P
+r
+o
+d
+u
+c
+t
+i
+v
+i
+t
+y
+=
+S
+o
+f
+t
+w
+a
+r
+e
+ 
+S
+i
+z
+e
+E
+f
+f
+o
+r
+t
+Productivity= 
+Effort
+Software Size
+​
+ 
+=
+18
+,
+000
+76.39
+= 
+76.39
+18,000
+​
+ 
+=
+235.63
+ 
+L
+O
+C
+/
+P
+M
+=235.63 LOC/PM
+Therefore, estimated productivity is approximately 236 LOC per person-month.
+
+11. Final Estimation Summary
+Online Food Delivery Application – COCOMO Results
+
+Project size
+
+18 KLOC
+Development effort
+
+76.39 PM
+Development duration
+
+11.4 months
+Average team size
+
+7 members
+Productivity
+
+236 LOC/PM
+Total estimated budget
+
+₹42.01 Lakh
+Includes 10% contingency reserve in the total budget.
+
+12. Conclusion
+The Online Food Delivery Application is estimated to have a software size of 18 KLOC. Using the Basic COCOMO model with Semi-Detached mode, the estimated development effort is 76.39 person-months, and the development duration is approximately 11.4 months.
+
+An average team of 7 members is required, with an estimated development cost of ₹38.2 lakhs. Including a 10% contingency reserve, the total estimated project budget is approximately ₹42 lakhs.
+
+Thus, the COCOMO model provides a systematic approach to estimating software size, development effort, duration and cost.
+
+Important for your examination: Remember these three COCOMO formulas for Semi-Detached mode.
+
+E
+=
+3.0
+(
+K
+L
+O
+C
+)
+1.12
+E=3.0(KLOC) 
+1.12
+ 
+​
+ 
+T
+=
+2.5
+(
+E
+)
+0.35
+T=2.5(E) 
+0.35
+ 
+​
+ 
+team size= e/t
+
+Student Management System: Prepare a project
+schedule for developing a student management system.
+Include requirement analysis, design, coding, testing,
+deployment and maintenance activities. Estimate
+project metrics and prepare a Gantt chart.
+WBS, activity identification,
+duration, dependencies,
+milestones, project metrics and
+Gantt chart
+Student Management System – Project Scheduling, WBS and Gantt Chart
+1. Introduction
+A Student Management System (SMS) is a software application used by educational institutions to manage student-related activities through a centralized system.
+
+The system includes the following modules:
+
+Student registration and profile management.
+
+Attendance management.
+
+Course and subject management.
+
+Examination and result management.
+
+Fee management.
+
+Timetable management.
+
+Report generation.
+
+Admin, faculty and student login.
+
+The objective is to prepare a project schedule that includes Work Breakdown Structure (WBS), activity identification, duration estimation, dependencies, milestones, project metrics and a Gantt chart.
+
+Assumption: The project is developed by a team of 5 members over approximately 16 weeks (4 months).
+
+2. Work Breakdown Structure (WBS)
+WBS divides the complete project into smaller and manageable tasks.
+
+WBS – Student Management System
+
+1. Student Management System
+
+1.1 Requirement Analysis
+
+Requirement gathering
+
+Feasibility study
+
+SRS preparation
+
+1.2 System Design
+
+Architecture design
+
+Database design
+
+UI design
+
+1.3 Development / Coding
+
+Student module
+
+Attendance module
+
+Examination and result module
+
+Fee and course modules
+
+1.4 Testing
+
+Unit testing
+
+Integration testing
+
+System testing
+
+User acceptance testing
+
+1.5 Deployment
+
+Installation
+
+Data migration
+
+User training
+
+1.6 Maintenance
+
+Bug fixing
+
+Performance monitoring
+
+Software updates
+
+3. Activity Identification and Duration Estimation
+The project is divided into six major phases.
+
+Activity ID
+
+Activity
+
+Duration
+
+A
+
+Requirement Analysis
+
+2 weeks
+
+B
+
+System Design
+
+2 weeks
+
+C
+
+Coding / Development
+
+6 weeks
+
+D
+
+Testing
+
+3 weeks
+
+E
+
+Deployment
+
+2 weeks
+
+F
+
+Maintenance
+
+Ongoing
+
+Total planned development duration:
+
+2
++
+2
++
+6
++
+3
++
+2
+=
+15
+ weeks
+2+2+6+3+2=15 weeks
+The remaining one week is reserved as a project buffer.
+
+4. Activity Dependencies
+Dependencies define the order in which project activities must be performed.
+
+Activity
+
+Depends On
+
+Explanation
+
+A – Requirement Analysis
+
+None
+
+First activity
+
+B – System Design
+
+A
+
+Requirements must be finalized
+
+C – Coding
+
+B
+
+Design must be completed
+
+D – Testing
+
+C
+
+Coding must be completed for full system testing
+
+E – Deployment
+
+D
+
+System must pass testing
+
+F – Maintenance
+
+E
+
+Starts after deployment
+
+Dependency flow:
+
+A
+Requirement Analysis
+
+2 weeks
+
+B
+System Design
+
+2 weeks
+
+C
+Coding / Development
+
+6 weeks
+
+D
+Testing
+
+3 weeks
+
+E
+Deployment
+
+2 weeks
+
+F
+Maintenance
+
+Ongoing
+
+5. Detailed Project Schedule
+Assuming the project starts in Week 1:
+
+Activity
+
+Start Week
+
+End Week
+
+Duration
+
+Requirement Analysis
+
+1
+
+2
+
+2 weeks
+
+System Design
+
+3
+
+4
+
+2 weeks
+
+Coding / Development
+
+5
+
+10
+
+6 weeks
+
+Testing
+
+11
+
+13
+
+3 weeks
+
+Deployment
+
+14
+
+15
+
+2 weeks
+
+Project Buffer
+
+16
+
+16
+
+1 week
+
+Maintenance
+
+After deployment
+
+Ongoing
+
+Continuous
+
+6. Gantt Chart
+A Gantt chart is a graphical representation of the project schedule. It shows the activities, their starting time, duration and completion time.
+
+Legend: █ = Activity in progress
+
+Gantt Chart – 16 Weeks
+
+W1
+
+W2
+
+W3
+
+W4
+
+W5
+
+W6
+
+W7
+
+W8
+
+Requirements
+
+Design
+
+Coding
+
+Testing
+
+Deployment
+
+Buffer
+
+W9
+
+W10
+
+W11
+
+W12
+
+W13
+
+W14
+
+W15
+
+W16
+
+Scheduled activity
+
+No activity
+
+Interpretation:
+
+Weeks 1–2: Requirement analysis.
+
+Weeks 3–4: System design.
+
+Weeks 5–10: Coding and development.
+
+Weeks 11–13: Testing.
+
+Weeks 14–15: Deployment.
+
+Week 16: Buffer for unexpected delays.
+
+Maintenance starts after deployment and continues throughout the system's operational life.
+
+7. Project Milestones
+Milestones are important checkpoints used to measure project progress.
+
+Milestone
+
+Target Time
+
+Expected Deliverable
+
+M1: Requirement Completion
+
+End of Week 2
+
+Approved SRS document
+
+M2: Design Completion
+
+End of Week 4
+
+Architecture and database design
+
+M3: Coding Completion
+
+End of Week 10
+
+Completed software modules
+
+M4: Testing Completion
+
+End of Week 13
+
+Testing and validation report
+
+M5: Deployment Completion
+
+End of Week 15
+
+Live Student Management System
+
+M6: Project Handover
+
+End of Week 16
+
+Documentation and handover
+
+8. Project Metrics Estimation
+Project metrics help measure the size, effort, cost, productivity and quality of the software project.
+
+8.1 Project Duration
+Total planned development duration:
+
+2
++
+2
++
+6
++
+3
++
+2
+=
+15
+ weeks
+2+2+6+3+2=15 weeks
+Including buffer:
+
+15
++
+1
+=
+16
+ weeks
+15+1= 
+16 weeks
+​
+ 
+8.2 Effort Estimation
+Assume the following team allocation:
+
+Activity
+
+Team Members
+
+Duration
+
+Effort
+
+Requirement Analysis
+
+2
+
+2 weeks
+
+4 person-weeks
+
+System Design
+
+2
+
+2 weeks
+
+4 person-weeks
+
+Coding
+
+4
+
+6 weeks
+
+24 person-weeks
+
+Testing
+
+3
+
+3 weeks
+
+9 person-weeks
+
+Deployment
+
+2
+
+2 weeks
+
+4 person-weeks
+
+Total
+
+45 person-weeks
+
+Formula:
+
+E
+f
+f
+o
+r
+t
+=
+T
+e
+a
+m
+ 
+S
+i
+z
+e
+×
+D
+u
+r
+a
+t
+i
+o
+n
+Effort=Team Size×Duration
+Total effort:
+
+4
++
+4
++
+24
++
+9
++
+4
+=
+45
+ Person-Weeks
+4+4+24+9+4= 
+45 Person-Weeks
+​
+ 
+Converting into person-months (assuming 4 weeks per month):
+
+45
+/
+4
+=
+11.25
+ Person-Months
+45/4= 
+11.25 Person-Months
+​
+ 
+8.3 Average Team Size
+A
+v
+e
+r
+a
+g
+e
+ 
+T
+e
+a
+m
+ 
+S
+i
+z
+e
+=
+T
+o
+t
+a
+l
+ 
+E
+f
+f
+o
+r
+t
+D
+e
+v
+e
+l
+o
+p
+m
+e
+n
+t
+ 
+D
+u
+r
+a
+t
+i
+o
+n
+Average Team Size= 
+Development Duration
+Total Effort
+​
+ 
+=
+45
+15
+=
+3
+ members
+= 
+15
+45
+​
+ = 
+3 members
+​
+ 
+The project will have a peak team size of 5 members, with resources allocated according to project activities.
+
+8.4 Development Cost Estimation
+Assume the average cost per team member is ₹50,000 per month.
+
+C
+o
+s
+t
+=
+E
+f
+f
+o
+r
+t
+×
+C
+o
+s
+t
+ 
+p
+e
+r
+ 
+P
+e
+r
+s
+o
+n
+ 
+M
+o
+n
+t
+h
+Cost=Effort×Cost per Person Month
+=
+11.25
+×
+50
+,
+000
+=11.25×50,000
+=
+₹
+5
+,
+62
+,
+500
+= 
+₹5,62,500
+​
+ 
+Therefore, the estimated development cost is ₹5.625 lakhs.
+
+This estimate excludes ongoing maintenance and additional infrastructure expenses.
+
+8.5 Productivity
+Assume the estimated project size is 90 Function Points (FP).
+
+P
+r
+o
+d
+u
+c
+t
+i
+v
+i
+t
+y
+=
+F
+u
+n
+c
+t
+i
+o
+n
+ 
+P
+o
+i
+n
+t
+s
+E
+f
+f
+o
+r
+t
+Productivity= 
+Effort
+Function Points
+​
+ 
+=
+90
+11.25
+= 
+11.25
+90
+​
+ 
+=
+8
+ 
+F
+P
+/
+P
+e
+r
+s
+o
+n
+ 
+M
+o
+n
+t
+h
+= 
+8 FP/Person Month
+​
+ 
+This is an assumed planning estimate, not a measured project result.
+
+9. Quality and Project Monitoring Metrics
+The following metrics can be used to monitor project progress and software quality.
+
+Metric
+
+Target
+
+Schedule Performance
+
+Complete within 16 weeks
+
+Effort Variance
+
+Within 10% of estimated effort
+
+Test Coverage
+
+At least 90%
+
+Defect Rate
+
+Minimize defects before deployment
+
+System Availability
+
+At least 99% after deployment
+
+User Satisfaction
+
+At least 85% positive feedback
+
+Data Accuracy
+
+At least 99% accuracy in migrated records
+
+The project manager should review these metrics weekly to identify delays and take corrective actions.
+
+10. Critical Path Identification
+The critical path is the longest sequence of dependent activities that determines the minimum project completion time.
+
+For this project:
+
+A
+→
+B
+→
+C
+→
+D
+→
+E
+A→B→C→D→E
+Where:
+
+A = Requirement Analysis (2 weeks)
+
+B = System Design (2 weeks)
+
+C = Coding (6 weeks)
+
+D = Testing (3 weeks)
+
+E = Deployment (2 weeks)
+
+Total critical path duration:
+
+2
++
+2
++
+6
++
+3
++
+2
+=
+15
+ weeks
+2+2+6+3+2= 
+15 weeks
+​
+ 
+Any delay in these activities will directly affect the planned completion date unless recovered through schedule adjustments.
+
+11. Conclusion
+The Student Management System project is planned for approximately 16 weeks, including a one-week buffer.
+
+The project is divided into six major phases: requirement analysis, system design, coding, testing, deployment and maintenance.
+
+The estimated total development effort is 45 person-weeks (11.25 person-months), with an average team size of 3 members and a peak team size of 5 members.
+
+The estimated development cost is ₹5.625 lakhs. A Gantt chart, WBS, activity dependencies and milestones help manage the project effectively.
+
+Therefore, proper project scheduling ensures timely completion, efficient resource utilization, quality software development and successful deployment.
+
+Quick Revision – Important Results
+Final Project Estimates
+Total duration
+
+16 weeks
+Total effort
+
+45 PW
+Average team size
+
+3 members
+Estimated cost
+
+₹5.625 L
+Project size (assumed)
+
+90 FP
+Productivity
+
+8 FP/PM
+Important formulas for exams:
+
+Effort = Team Size × Duration
+
+Total Duration = Sum of sequential activity durations.
+
+Average Team Size = Total Effort / Development Duration.
+
+Development Cost = Total Person-Months × Cost per Person-Month.
+
+Productivity = Software Size / Development Effort.
+
+Exam tip: Remember that WBS explains what work must be done, dependencies explain in what order, and the Gantt chart explains when the work will be done.
+​
+ 
+​
+ 
